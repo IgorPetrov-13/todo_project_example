@@ -3,11 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "prisma generate",
-    "predev": "prisma generate",
-    "dev": "nodemon app.js"
-  },
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "postinstall": "prisma generate",
+  "predev": "prisma generate",
+  "dev": "nodemon app.js",
+  "start": "node app.js",
+  "build": "prisma generate",
+  "prisma:generate": "prisma generate",
+  "prisma:migrate": "prisma migrate deploy"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
