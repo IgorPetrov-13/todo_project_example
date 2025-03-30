@@ -14,10 +14,11 @@ const serverConfig = (app) => {
   app.use(morgan('dev')); // Логирование запросов на сервере
   app.use(
     cors({
-      origin: ['http://localhost:3000', 'http://localhost:5173,', 'https://IgorPetrov-13.github.io'],
+      origin: ['http://localhost:3000', 'http://localhost:5173', 'https://igorpetrov-13.github.io'],
       methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
       allowedHeaders: ['Content-Type', 'Authorization'],
       exposedHeaders: ['set-cookie'],
+      credentials: true,
     })
   );
 };
