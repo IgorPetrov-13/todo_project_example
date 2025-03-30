@@ -1,0 +1,1 @@
+import{j as s}from"./index-DsmU7_BB.js";function e(){return s.jsxs("div",{className:"container m-3",children:[s.jsx("h1",{children:"404"}),s.jsx("p",{children:"Такой страницы еще нет"}),s.jsx("img",{src:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-Z9l7wTJSlsWuRvUSVdjbpyEcfeCE8dovYg&s",alt:"smile"})]})}export{e as default};
