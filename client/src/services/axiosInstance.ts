@@ -1,6 +1,7 @@
 import type { AxiosError, AxiosInstance, InternalAxiosRequestConfig } from 'axios';
 import axios from 'axios';
-import type { TypeUser } from '../entities/todo/types/todoTypes';
+import type { TypeUser } from '../entities/user/types/userTypes';
+
 
 type RetryConfig = {
   sent?: boolean;
